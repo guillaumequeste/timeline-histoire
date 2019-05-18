@@ -507,6 +507,359 @@ const App = () => (
         </div>
       </VerticalTimelineElement>
 
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="26 mars 1871 - 22 mai 1871"
+        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Commune de Paris</h3>
+            <p>
+              III ème République
+            </p>
+            <p>
+              Pouvoir insurrectionnel limité à la ville de Paris pendant que le Gouvernement de Versailles est théoriquement souverain sur le reste du territoire.
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="4 septembre 1870 - 12 janvier 1871"
+        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Révolution de 1870</h3>
+            <p>
+              III ème République
+            </p>
+            <p>
+              Gouvernement de la Défense nationale par Louis-Jules Trochu
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/trochu.png")} alt="trochu"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2 janvier 1870 - 4 septembre 1870"
+        iconStyle={{ background: 'rgb(87, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Empire parlementaire</h3>
+            <p>
+              Second Empire
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2 décembre 1852 - 27 décembre 1869"
+        iconStyle={{ background: 'rgb(87, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Empire autoritaire</h3>
+            <p>
+              Second Empire
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="1848 - 1852"
+        iconStyle={{ background: 'rgb(20, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Louis-Napoléon Bonaparte</h3>
+            <h4 className="vertical-timeline-element-subtitle">Président de la République</h4>
+            <p>
+              Deuxième République
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/louis_napoleon_bonaparte.jpg")} alt="louis_napoleon_bonaparte"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="28 juin 1848 - 20 décembre 1848"
+        iconStyle={{ background: 'rgb(20, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Gouvernement du Conseil exécutif</h3>
+            <p>
+              Deuxième République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="24 juin 1848 - 28 juin 1848"
+        iconStyle={{ background: 'rgb(20, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Présidence de l'Assemblée constituante</h3>
+            <p>
+              Deuxième République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="10 mai 1848 - 24 juin 1848"
+        iconStyle={{ background: 'rgb(20, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Gouvernement du Conseil exécutif</h3>
+            <p>
+              Deuxième République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="9 mai 1848 - 10 mai 1848"
+        iconStyle={{ background: 'rgb(20, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Présidence de l'Assemblée constituante</h3>
+            <p>
+              Deuxième République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="24 février 1848 - 9 mai 1848"
+        iconStyle={{ background: 'rgb(20, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Gouvernement provisoire de la République</h3>
+            <p>
+              Deuxième République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="1er août 1830 - 28 février 1848"
+        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Louis-Philippe Ier</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi des Français</h4>
+            <p>
+              Lieutenant général du royaume puis Roi des Français - Les Trois Glorieuses et la Monarchie de juillet
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/louis_philippe_premier.jpg")} alt="louis_philippe_premier"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="29 juillet 1830 - 1er août 1830"
+        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Commission municipale</h3>
+            <p>
+              Les Trois Glorieuses et la Monarchie de juillet
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="16 septembre 1824 - 29 juillet 1830"
+        iconStyle={{ background: 'rgb(33, 150, 200)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Charles X</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
+            <p>
+              Seconde Restauration
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/charles_X.jpg")} alt="charles_X"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="8 juillet 1815 - 16 septembre 1824"
+        iconStyle={{ background: 'rgb(33, 150, 200)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Louis XVIII</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
+            <p>
+              Seconde Restauration
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/louis_XVIII.jpg")} alt="louis_XVIII"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="8 juillet 1815 - 16 septembre 1824"
+        iconStyle={{ background: 'rgb(1, 1, 1)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Premier Empire</h3>
+            <p>
+              Période dite des Cent-Jours
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="1814 - 1815"
+        iconStyle={{ background: 'rgb(100, 100, 100)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Louis XVIII</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
+            <p>
+              Première Restauration
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/louis_XVIII.jpg")} alt="louis_XVIII"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="1814"
+        iconStyle={{ background: 'rgb(200, 200, 200)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Napoléon II</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Empereur</h4>
+            <p>
+              Premier Empire
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/napoleon_II.jpg")} alt="napoleon_II"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="18 mai 1804 - 6 avril 1814"
+        iconStyle={{ background: 'rgb(200, 200, 200)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Napoléon Ier</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Empereur</h4>
+            <p>
+              Premier Empire
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/napoleon_I.jpg")} alt="napoleon_I"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="1799 - 1804"
+        iconStyle={{ background: 'rgb(300, 300, 300)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Consulat</h3>
+            <p>
+              Première République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2 novembre 1795 - 9 novembre 1799"
+        iconStyle={{ background: 'rgb(300, 300, 300)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Directoire</h3>
+            <p>
+              Première République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="21 septembre 1792 - 26 octobre 1795"
+        iconStyle={{ background: 'rgb(300, 300, 300)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Convention nationale</h3>
+            <p>
+              Première République
+            </p>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+
   
 
       <VerticalTimelineElement
