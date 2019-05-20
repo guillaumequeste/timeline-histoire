@@ -1979,6 +1979,25 @@ const App = () => (
         </div>
       </VerticalTimelineElement>
 
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="656 - 662"
+        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Childebert III</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs</h4>
+            <p>
+              Dynastie des Mérovingiens
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("./img/clotaire_iii.jpg")} alt="clotaire_iii"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
       
 
 
