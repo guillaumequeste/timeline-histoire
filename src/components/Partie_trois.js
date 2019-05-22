@@ -452,14 +452,14 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Louis VI</h3>
+            <h3 className="vertical-timeline-element-title">Louis VI "le Gros"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/louis_vi.jpeg")} alt="louis_vi"></img>
+            <img src={require("../img/louis_vi.jpg")} alt="louis_vi"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -478,7 +478,7 @@ const Partie_trois = () => (
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/philippe_ier.jpeg")} alt="philippe_ier"></img>
+            <img src={require("../img/philippe_ier.jpg")} alt="philippe_ier"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -497,7 +497,7 @@ const Partie_trois = () => (
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/henri_ier.jpeg")} alt="henri_ier"></img>
+            <img src={require("../img/henri_ier.jpg")} alt="henri_ier"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -509,14 +509,14 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Robert II</h3>
+            <h3 className="vertical-timeline-element-title">Robert II "le Pieux"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/robert_ii.jpeg")} alt="robert_ii"></img>
+            <img src={require("../img/robert_ii.jpg")} alt="robert_ii"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -535,7 +535,7 @@ const Partie_trois = () => (
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/hugues_capet.jpeg")} alt="hugues_capet"></img>
+            <img src={require("../img/hugues_capet.jpg")} alt="hugues_capet"></img>
           </div>
         </div>
       </VerticalTimelineElement>

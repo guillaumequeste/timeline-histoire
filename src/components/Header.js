@@ -7,7 +7,8 @@ class Header extends Component {
         return (
             <div className="bodyHeader">
                 <Link to="/">Accueil</Link>
-                <Link to="/partie_quatre">656 - 987</Link>
+                <Link to="/partie_cinq">428 - 751</Link>
+                <Link to="/partie_quatre">751 - 987</Link>
                 <Link to="/partie_trois">987 - 1589</Link>
                 <Link to="/partie_deux">1589 - 1830</Link>
                 <Link to="/partie_un">1830 - Aujourd'hui</Link>

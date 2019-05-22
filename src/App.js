@@ -9,8 +9,11 @@ const App = () => (
     <Header />
     <div className="accueil">
       <div className="liens">
+      <div className="partie">
+          <Link to="/partie_cinq">428 - 751</Link>
+        </div>
         <div className="partie">
-          <Link to="/partie_quatre">656 - 987</Link>
+          <Link to="/partie_quatre">751 - 987</Link>
         </div>
         <div>
           <Link to="/partie_trois">987 - 1589</Link>
