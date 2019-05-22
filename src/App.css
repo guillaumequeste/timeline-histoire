@@ -45,6 +45,11 @@
     text-decoration: none;
 }
 
+.linkHome:hover {
+    transform: scale(2);
+    transition-duration: 0.5s;
+}
+
 .un {
     background-color: #FFCF66;
 }
@@ -86,17 +91,17 @@
     }
 }
 
-.home {
-    width: 30px;
-    color: white;
-}
-
 .link {
     margin-left: 8%;
     color: white;
     text-decoration: none;
     font-family: 'Playball', cursive, sans-serif;
     font-weight: bold;
+}
+
+.link:hover {
+    transform: scale(2);
+    transition-duration: 0.5s;
 }
 
 

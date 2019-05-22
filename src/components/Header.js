@@ -6,9 +6,7 @@ class Header extends Component {
     render () {
         return (
             <div className="bodyHeader">
-                <Link to="/" className="link">
-                    <img src={require("../img/home.png")} alt="home" className="home"></img>
-                </Link>
+                <Link to="/" className="link">Accueil</Link>
                 <Link to="/partie_un" className="link">1830 -> Aujourd'hui</Link>
                 <Link to="/partie_deux" className="link">1589 -> 1830</Link>
                 <Link to="/partie_trois" className="link">987 -> 1589</Link>
