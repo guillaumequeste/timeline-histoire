@@ -370,7 +370,7 @@ const Partie_quatre = () => (
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="695 - 711"
+        date="694 - 711"
         iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
       >
         <div className="badge">
@@ -389,7 +389,7 @@ const Partie_quatre = () => (
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="691 - 695"
+        date="691 - 694"
         iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
       >
         <div className="badge">
@@ -433,7 +433,7 @@ const Partie_quatre = () => (
         <div className="badge">
           <div className="titres">
             <h3 className="vertical-timeline-element-title">Dagobert II</h3>
-            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs</h4>
+            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs d'Austrasie</h4>
             <p>
               Dynastie des Mérovingiens
             </p>
@@ -452,7 +452,7 @@ const Partie_quatre = () => (
         <div className="badge">
           <div className="titres">
             <h3 className="vertical-timeline-element-title">Clovis III</h3>
-            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs</h4>
+            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs d'Austrasie</h4>
             <p>
               Dynastie des Mérovingiens
             </p>
@@ -490,7 +490,7 @@ const Partie_quatre = () => (
         <div className="badge">
           <div className="titres">
             <h3 className="vertical-timeline-element-title">Clotaire III</h3>
-            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs</h4>
+            <h4 className="vertical-timeline-element-subtitle"> Roi de Neustrie et de Burgondie</h4>
             <p>
               Dynastie des Mérovingiens
             </p>
@@ -509,13 +509,80 @@ const Partie_quatre = () => (
         <div className="badge">
           <div className="titres">
             <h3 className="vertical-timeline-element-title">Childebert III</h3>
-            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs</h4>
+            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs d'Austrasie</h4>
             <p>
               Dynastie des Mérovingiens
             </p>
           </div>
           <div className="img">
             <img src={require("../img/clotaire_iii.jpg")} alt="clotaire_iii"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="639 - 657"
+        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Clovis II</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi de Neustrie et de Bourgogne</h4>
+            <p>
+              Dynastie des Mérovingiens
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("../img/clovis_ii.jpeg")} alt="clovis_ii"></img>
+          </div>
+          <div className="titres2">
+            <h3 className="vertical-timeline-element-title">Sigebert III</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi d'Austrasie (639 - 656)</h4>
+            <p>
+              Dynastie des Mérovingiens
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("../img/sigebert_iii.jpg")} alt="sigebert_iii"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="629 - 639"
+        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Dagobert Ier</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs</h4>
+            <p>
+              Dynastie des Mérovingiens
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("../img/dagobert_ier.jpeg")} alt="dagobert_ier"></img>
+          </div>
+        </div>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="613 - 629"
+        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+      >
+        <div className="badge">
+          <div className="titres">
+            <h3 className="vertical-timeline-element-title">Clotaire II</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Roi des Francs</h4>
+            <p>
+              Dynastie des Mérovingiens
+            </p>
+          </div>
+          <div className="img">
+            <img src={require("../img/clotaire_ii.jpeg")} alt="clotaire_ii"></img>
           </div>
         </div>
       </VerticalTimelineElement>

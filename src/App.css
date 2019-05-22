@@ -1,6 +1,35 @@
+/* accueil */
+
+.accueil {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.liens {
+    margin: auto;
+}
+
+
+/* header */
+
+.bodyHeader {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+
+/* timeline */
+
 .badge {
     display: flex;
     flex-direction: row;
+}
+
+.titres2 {
+    padding-left: 5%;
 }
 
 .img {
