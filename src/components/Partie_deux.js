@@ -7,7 +7,8 @@ import 'react-vertical-timeline-component/style.min.css'
 const Partie_deux = () => (
   <>
     <Header />
-    <VerticalTimeline>
+    <h1 className="dateTop">1830</h1>
+    <VerticalTimeline className="timeline">
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="16 septembre 1824 - 29 juillet 1830"
@@ -261,9 +262,7 @@ const Partie_deux = () => (
             </div>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
-        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-      />
+        <h1 className="dateBottom">1589</h1>
 
     </VerticalTimeline>
   </>

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
 /* accueil */
 
 .accueil {
-    height: 95vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,13 +18,63 @@
 /* header */
 
 .bodyHeader {
-    height: 5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    min-height: 8vh;
+    width: 100vw;
+    background-color: rgb(127, 116, 138);
     display: flex;
     align-items: center;
 }
 
+@media screen and (max-width: 640px) {
+    .bodyHeader {
+        flex-direction: column;
+    }
+}
+
+.home {
+    width: 30px;
+    color: white;
+}
+
+.link {
+    margin-left: 3%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Playball', cursive, sans-serif;
+    font-weight: bold;
+}
+
 
 /* timeline */
+
+.dateTop {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 8vh;
+    font-family: 'Fredericka the Great', cursive, sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        top: 18vh;
+    }
+}
+
+.timeline {
+    top: 5vh;
+}
+
+@media screen and (max-width: 640px) {
+    .timeline {
+        top: 15vh;
+    }
+}
 
 .badge {
     display: flex;
@@ -38,4 +91,12 @@
 
 img {
     width: 60px;
+}
+
+.dateBottom {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    font-family: 'Fredericka the Great', cursive, sans-serif;
 }

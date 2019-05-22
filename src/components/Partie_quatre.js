@@ -7,7 +7,8 @@ import 'react-vertical-timeline-component/style.min.css'
 const Partie_quatre = () => (
   <>
     <Header />
-    <VerticalTimeline>
+    <h1 className="dateTop">987</h1>
+    <VerticalTimeline className="timeline">
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="986 - 987"
@@ -276,6 +277,9 @@ const Partie_quatre = () => (
           </div>
         </div>
       </VerticalTimelineElement>
+
+      <h1 className="dateBottom">751</h1>
+
     </VerticalTimeline>
   </>
 )

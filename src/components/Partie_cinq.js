@@ -7,7 +7,8 @@ import 'react-vertical-timeline-component/style.min.css'
 const Partie_cinq = () => (
   <>
     <Header />
-    <VerticalTimeline>
+    <h1 className="dateTop">751</h1>
+    <VerticalTimeline className="timeline">
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="743 - 751"
@@ -518,6 +519,8 @@ const Partie_cinq = () => (
           </div>
         </div>
       </VerticalTimelineElement>
+
+      <h1 className="dateBottom">428</h1>
 
     </VerticalTimeline>
   </>
