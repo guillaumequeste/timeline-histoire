@@ -6,8 +6,13 @@
 .accueil {
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .accueil {
+        height: 95vh;
+        padding-top: 5vh;
+    }
 }
 
 .liens {
@@ -15,13 +20,49 @@
 }
 
 .part {
-    width: 35vw;
+    width: 40vw;
     height: 12vh;
     border: solid;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    font-family: 'Playball', cursive, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .part {
+        height: 8vh;
+        font-size: 1em;
+        margin-top: 10%;
+    }
+}
+
+.linkHome {
+    text-decoration: none;
+}
+
+.un {
+    background-color: #FFCF66;
+}
+
+.deux {
+    background-color: #E8B35D;
+}
+
+.trois {
+    background-color: #FFBE73;
+}
+
+.quatre {
+    background-color: #E8995D;
+}
+
+.cinq {
+    background-color: #FFA273;
 }
 
 
@@ -39,7 +80,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
     .bodyHeader {
         flex-direction: column;
     }
@@ -51,7 +92,7 @@
 }
 
 .link {
-    margin-left: 3%;
+    margin-left: 8%;
     color: white;
     text-decoration: none;
     font-family: 'Playball', cursive, sans-serif;
@@ -101,6 +142,11 @@
 
 img {
     width: 60px;
+}
+
+img:hover {
+    transform: scale(3);
+    transition-duration: 1s;
 }
 
 .dateBottom {
