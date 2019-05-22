@@ -110,7 +110,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Louis XII</h3>
+            <h3 className="vertical-timeline-element-title">Louis XII "le Père du Peuple"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Valois
@@ -129,7 +129,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Charles VIII</h3>
+            <h3 className="vertical-timeline-element-title">Charles VIII "l'Affable"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Valois
@@ -148,7 +148,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Louis XI</h3>
+            <h3 className="vertical-timeline-element-title">Louis XI "le Prudent"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Valois
@@ -167,7 +167,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Charles VII</h3>
+            <h3 className="vertical-timeline-element-title">Charles VII "le Victorieux"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Valois
@@ -186,7 +186,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Charles VI</h3>
+            <h3 className="vertical-timeline-element-title">Charles VI "le Fol"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Valois
@@ -205,7 +205,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Charles V</h3>
+            <h3 className="vertical-timeline-element-title">Charles V "le Sage"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Valois
@@ -224,7 +224,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Jean II</h3>
+            <h3 className="vertical-timeline-element-title">Jean II "le Bon"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Valois
@@ -262,14 +262,14 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Charles IV</h3>
+            <h3 className="vertical-timeline-element-title">Charles IV "le Bel"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/charles_iv.jpeg")} alt="charles_iv"></img>
+            <img src={require("../img/charles_iv.jpg")} alt="charles_iv"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -281,7 +281,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Philippe V</h3>
+            <h3 className="vertical-timeline-element-title">Philippe V "le Long"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
@@ -300,7 +300,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Jean Ier</h3>
+            <h3 className="vertical-timeline-element-title">Jean Ier "le Posthume"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
@@ -319,7 +319,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Louis X</h3>
+            <h3 className="vertical-timeline-element-title">Louis X "le Hutin"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
@@ -338,7 +338,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Philippe IV</h3>
+            <h3 className="vertical-timeline-element-title">Philippe IV "le Bel"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
@@ -357,14 +357,14 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Philippe III</h3>
+            <h3 className="vertical-timeline-element-title">Philippe III "le Hardi"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/philippe_iii.jpeg")} alt="philippe_iii"></img>
+            <img src={require("../img/philippe_iii.jpg")} alt="philippe_iii"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -376,7 +376,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Louis IX</h3>
+            <h3 className="vertical-timeline-element-title">Louis IX "Saint Louis"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
@@ -395,7 +395,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Louis VIII</h3>
+            <h3 className="vertical-timeline-element-title">Louis VIII "le Lion"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
@@ -414,7 +414,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Philippe II</h3>
+            <h3 className="vertical-timeline-element-title">Philippe II "Auguste"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens
@@ -433,7 +433,7 @@ const Partie_trois = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Louis VII</h3>
+            <h3 className="vertical-timeline-element-title">Louis VII "le Jeune"</h3>
             <h4 className="vertical-timeline-element-subtitle"> Roi de France</h4>
             <p>
               Dynastie des Capétiens

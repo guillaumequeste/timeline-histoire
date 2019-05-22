@@ -148,14 +148,14 @@ const Partie_un = () => (
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Général de Gaulle</h3>
+            <h3 className="vertical-timeline-element-title">Charles de Gaulle</h3>
             <h4 className="vertical-timeline-element-subtitle">Président de la République</h4>
             <p>
               1er président de la V ème République
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/de_gaulle.jpg")} alt="de_gaulle"></img>
+            <img src={require("../img/charles_de_gaulle.jpg")} alt="charles_de_gaulle"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -216,27 +216,19 @@ const Partie_un = () => (
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="juin 1943 - 9 septembre 1944"
+        date="1940 - 1944"
         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
-            <h3 className="vertical-timeline-element-title">Comité français de la Libération nationale</h3>
+            <h3 className="vertical-timeline-element-title">Philippe Pétain</h3>
+            <h4 className="vertical-timeline-element-subtitle">Chef de l'Etat français</h4>
             <p>
               Régime de Vichy
             </p>
           </div>
-        </div>
-      </VerticalTimelineElement>
-
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="octobre 1940 - juin 1943"
-        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-      >
-        <div className="badge">
-          <div className="titres">
-            <h3 className="vertical-timeline-element-title">Conseil de défense de l'Empire et Comité national français</h3>
+          <div className="img">
+            <img src={require("../img/philippe_petain.jpg")} alt="philippe_petain.jpg"></img>
           </div>
         </div>
       </VerticalTimelineElement>
@@ -684,7 +676,7 @@ const Partie_un = () => (
             </p>
           </div>
           <div className="img">
-            <img src={require("../img/louis_philippe_premier.jpg")} alt="louis_philippe_premier"></img>
+            <img src={require("../img/louis_philippe_ier.jpg")} alt="louis_philippe_ier"></img>
           </div>
         </div>
       </VerticalTimelineElement>
