@@ -12,7 +12,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="743 - 751"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -31,7 +31,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="737 - 743"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -46,7 +46,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="721 - 737"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -65,7 +65,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="715 - 721"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -84,7 +84,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="711 - 715"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -103,7 +103,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="694 - 711"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -122,7 +122,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="691 - 694"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -141,7 +141,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="679 - 691"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -160,7 +160,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="676 - 679"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -179,7 +179,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="675 - 676"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -198,7 +198,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="673 - 675"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -217,7 +217,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="663 - 673"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -236,7 +236,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="656 - 662"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -255,7 +255,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="639 - 657"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -284,7 +284,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="629 - 639"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -303,7 +303,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="613 - 629"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -322,7 +322,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="613"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -341,7 +341,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="595 - 613"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -370,7 +370,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="561 - 596"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
         <div className="titres">
@@ -399,7 +399,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="558 - 561"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -418,7 +418,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="511 - 558"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -447,7 +447,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="481 - 511"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -466,7 +466,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="457 - 481"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -485,7 +485,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="447 - 457"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -504,7 +504,7 @@ const Partie_cinq = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="428 - 447"
-        iconStyle={{ background: 'rgb(180, 50, 250)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(50, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">

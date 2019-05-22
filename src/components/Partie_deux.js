@@ -68,7 +68,7 @@ const Partie_deux = () => (
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="1814 - 1815"
-            iconStyle={{ background: 'rgb(100, 100, 100)', color: '#fff' }}
+            iconStyle={{ background: 'rgb(250, 157, 23)', color: '#fff' }}
         >
             <div className="badge">
                 <div className="titres">

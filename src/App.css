@@ -14,6 +14,16 @@
     margin: auto;
 }
 
+.part {
+    width: 35vw;
+    height: 12vh;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
 
 /* header */
 

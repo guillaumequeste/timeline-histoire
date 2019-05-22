@@ -237,7 +237,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1932 - 1940"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -256,7 +256,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1931 - 1932"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -275,7 +275,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1924 - 1931"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -294,7 +294,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1920 - 1924"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -313,7 +313,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1920"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -332,7 +332,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1913 - 1920"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -351,7 +351,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1906 - 1913"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -370,7 +370,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1899 - 1906"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -389,7 +389,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1895 - 1899"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -408,7 +408,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1894 - 1895"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -427,7 +427,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1887 - 1894"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -446,7 +446,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1879 - 1887"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -465,7 +465,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1873 - 1879"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -484,7 +484,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1871 - 1873"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(16, 200, 22)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -503,7 +503,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="26 mars 1871 - 22 mai 1871"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(229, 66, 224)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -521,7 +521,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="4 septembre 1870 - 12 janvier 1871"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(229, 66, 224)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -542,7 +542,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2 janvier 1870 - 4 septembre 1870"
-        iconStyle={{ background: 'rgb(87, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(250, 236, 23)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -557,7 +557,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2 décembre 1852 - 27 décembre 1869"
-        iconStyle={{ background: 'rgb(87, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(250, 236, 23)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -666,7 +666,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="1er août 1830 - 28 février 1848"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(157, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">
@@ -685,7 +685,7 @@ const Partie_un = () => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="29 juillet 1830 - 1er août 1830"
-        iconStyle={{ background: 'rgb(189, 60, 50)', color: '#fff' }}
+        iconStyle={{ background: 'rgb(157, 23, 250)', color: '#fff' }}
       >
         <div className="badge">
           <div className="titres">

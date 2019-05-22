@@ -9,19 +9,19 @@ const App = () => (
     <Header />
     <div className="accueil">
       <div className="liens">
-        <div>
+        <div className="part">
           <Link to="/partie_un">1830 - Aujourd'hui</Link>
         </div>
-        <div>
+        <div className="part">
           <Link to="/partie_deux">1589 - 1830</Link>
         </div>
-        <div>
+        <div className="part">
           <Link to="/partie_trois">987 - 1589</Link>
         </div>
-        <div className="partie">
+        <div className="part">
           <Link to="/partie_quatre">751 - 987</Link>
         </div>
-        <div className="partie">
+        <div className="part">
           <Link to="/partie_cinq">428 - 751</Link>
         </div>
       </div>
