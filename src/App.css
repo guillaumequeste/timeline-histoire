@@ -70,6 +70,52 @@
     background-color: #FFA273;
 }
 
+.couronne {
+    width: 15%;
+    position: fixed;
+    top: 10%;
+    left: 12%;
+}
+
+@media screen and (max-width: 1000px) {
+    .couronne {
+        width: 15%;
+        top: 20%;
+        left: 5%;
+    }
+}
+
+.napoleon_ier {
+    width: 15%;
+    position: fixed;
+    bottom: 0;
+}
+
+.marianne {
+    width: 15%;
+    position: fixed;
+    top: 20%;
+    right: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+    .marianne {
+        width: 15%;
+        top: 40%;
+    }
+}
+
+.louis_xiv {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.png:hover {
+    transform: scale(1);
+}
+
 
 /* header */
 

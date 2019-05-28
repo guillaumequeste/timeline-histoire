@@ -25,6 +25,10 @@ const App = () => (
           <Link to="/partie_cinq" className="linkHome">428 - 751</Link>
         </div>
       </div>
+      <img src={require("./img/couronne.svg")} alt="couronne" className="couronne png"></img>
+      <img src={require("./img/napoleon_ier.png")} alt="napoleon_ier" className="napoleon_ier png"></img>
+      <img src={require("./img/marianne.png")} alt="marianne" className="marianne png"></img>
+      <img src={require("./img/louis_xiv.png")} alt="louis_xiv" className="louis_xiv png"></img>
     </div>
   </>
 )
