@@ -85,10 +85,24 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .couronne {
+        width: 15%;
+        top: 40%;
+        left: 5%;
+    }
+}
+
 .napoleon_ier {
     width: 15%;
     position: fixed;
     bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .napoleon_ier {
+        width: 25%;
+    }
 }
 
 .marianne {
@@ -101,7 +115,7 @@
 @media screen and (max-width: 1000px) {
     .marianne {
         width: 15%;
-        top: 40%;
+        top: 45%;
     }
 }
 
@@ -110,6 +124,12 @@
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .louis_xiv {
+        width: 40%;
+    }
 }
 
 .png:hover {
