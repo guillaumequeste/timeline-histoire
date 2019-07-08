@@ -12,6 +12,7 @@ class Header extends Component {
                 <Link to="/partie_trois" className="link">987 -> 1589</Link>
                 <Link to="/partie_quatre" className="link">751 -> 987</Link>
                 <Link to="/partie_cinq" className="link">428 -> 751</Link>
+                <Link to="/contact" className="link">Contact</Link>
             </div>
 
         )
