@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint-utils": "^2.0.0",
+    "handlebars": "^4.5.3",
     "lodash": "^4.17.14",
     "lodash.template": "^4.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
-    "react-vertical-timeline-component": "^2.3.1"
+    "react-vertical-timeline-component": "^2.3.1",
+    "serialize-javascript": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
