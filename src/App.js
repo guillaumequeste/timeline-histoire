@@ -3,11 +3,30 @@ import './App.css';
 import Header from './components/Header'
 import 'react-vertical-timeline-component/style.min.css'
 import { Link } from "react-router-dom"
+import {Helmet} from "react-helmet"
 
 const App = () => (
   <>
     <Header />
     <div className="accueil">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Frise Histoire de France</title>
+        <link rel="canonical" href="http://histoire.guillaumequeste.fr" />
+        <meta name="keywords" content="Guillaume Queste developpeur web portfolio projet react histoire France" />
+        <meta name="description" content="Frise historique répertoriant les dirigeants français au cours des siècles." />
+        <meta property="og:title" content="Projet React Histoire de france" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://histoire.guillaumequeste.fr" />
+        <meta property="og:image" content="http://www.guillaumequeste.fr/img/histoire.png" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:title" content="Projet React Histoire de france" />
+        <meta property="og:description" content="Frise historique répertoriant les dirigeants français au cours des siècles." />
+        <meta property="og:site_name" content="Projet React Histoire de france" />
+        <meta name="twitter:description" content="Frise historique répertoriant les dirigeants français au cours des siècles." />
+        <meta name="twitter:title" content="Projet React Histoire de france" />
+        <meta name="twitter:image" content="http://www.guillaumequeste.fr/img/histoire.png" />
+      </Helmet>
       <div className="liens">
         <div className="part un">
           <Link to="/partie_un" className="linkHome">1830 - Aujourd'hui</Link>
