@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Helmet} from "react-helmet"
 
-class Contact extends Component {
+class HelmetComponent extends Component {
   
     render () {
         return (
@@ -29,4 +29,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact
+export default HelmetComponent
