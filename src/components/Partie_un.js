@@ -1,11 +1,14 @@
 import React from 'react';
 import '../App.css';
 import Header from './Header'
+import Helmet from './Helmet'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 
 const Partie_un = () => (
   <>
+    <Helmet title={"1830 -> Aujourd'hui"}
+              link={"http://histoire.guillaumequeste.fr/partie_un"} />
     <Header />
     <h1 className="dateTop">Aujourd'hui</h1>
     <VerticalTimeline className="timeline">
