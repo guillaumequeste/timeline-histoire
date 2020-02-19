@@ -7,7 +7,16 @@ class Normal extends Component {
         return (
             <div>
                 <Header />
-                <h2>404 Not Found</h2>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <h2>Il n'y a rien ici</h2>
             </div>
         )
     }

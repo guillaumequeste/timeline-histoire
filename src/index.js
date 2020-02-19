@@ -9,7 +9,7 @@ import Partie_quatre from './components/Partie_quatre'
 import Partie_cinq from './components/Partie_cinq'
 import Contact from './components/Contact'
 import * as serviceWorker from './serviceWorker'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 
 import NotFound from './components/NotFound'
 
@@ -17,14 +17,14 @@ const Root = () => (
     <Router>
         <Switch>
             <Route exact path='/' component={App}/>
-            <Route exact path='/partie_un' component={Partie_un}/>
-            <Route exact path='/partie_deux' component={Partie_deux}/>
-            <Route exact path='/partie_trois' component={Partie_trois}/>
-            <Route exact path='/partie_quatre' component={Partie_quatre}/>
-            <Route exact path='/partie_cinq' component={Partie_cinq}/>
-            <Route exact path='/contact' component={Contact}/>
-
-            <Route component={NotFound} />
+            <Route path='/partie_un' component={Partie_un}/>
+            <Route path='/partie_deux' component={Partie_deux}/>
+            <Route path='/partie_trois' component={Partie_trois}/>
+            <Route path='/partie_quatre' component={Partie_quatre}/>
+            <Route path='/partie_cinq' component={Partie_cinq}/>
+            <Route path='/contact' component={Contact}/>
+            <Route path='/notfound' component={NotFound} />
+            <Redirect to="/notfound" />
         </Switch>
     </Router>
 )
