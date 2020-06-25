@@ -49,7 +49,7 @@ const Partie_deux = () => (
 
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="8 juillet 1815 - 16 septembre 1824"
+            date="1er mars 1815 - 7 juillet 1815"
             iconStyle={{ background: 'rgb(1, 1, 1)', color: '#fff' }}
         >
             <div className="badge">
