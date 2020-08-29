@@ -4,25 +4,27 @@
 /* accueil */
 
 .accueil {
-    height: 100vh;
+    height: 90vh;
     display: flex;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .accueil {
-        height: 95vh;
-        padding-top: 5vh;
+        height: 92vh;
     }
+}
+
+.titre {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    font-family: 'Fredericka the Great', cursive, sans-serif;
 }
 
 .liens {
     margin: auto;
-}
-
-@media screen and (max-width: 1000px) {
-    .liens {
-        padding-top: 5vh;
-    }
+    margin-top: 2%;
 }
 
 .part {
@@ -43,7 +45,6 @@
     .part {
         height: 8vh;
         font-size: 1em;
-        margin-top: 10%;
     }
 }
 
@@ -52,7 +53,7 @@
 }
 
 .linkHome:hover {
-    transform: scale(2);
+    transform: scale(1.5);
     transition-duration: 0.5s;
 }
 
@@ -146,20 +147,16 @@
 /* header */
 
 .bodyHeader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
     min-height: 8vh;
     width: 100vw;
     background-color: rgb(127, 116, 138);
-    display: flex;
-    align-items: center;
+    display: none;
+    line-height: 8vh;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .bodyHeader {
-        flex-direction: column;
+        display: block;
     }
 }
 
@@ -168,12 +165,53 @@
     color: white;
     text-decoration: none;
     font-family: 'Playball', cursive, sans-serif;
+    font-size: 20px;
     font-weight: bold;
 }
 
-.link:hover {
-    transform: scale(2);
-    transition-duration: 0.5s;
+
+/* Footer */
+
+.bodyFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1000px) {
+    .bodyFooter {
+        display: none;
+    }
+}
+
+.bFooter {
+    display: flex;
+}
+
+.divFooter1 {
+    display: flex;
+    width: 50%;
+    background-color: rgb(127, 116, 138);
+    color: white;
+    height: 5vh;
+}
+
+.divFooter2 {
+    display: flex;
+    width: 25%;
+    background-color: rgb(127, 116, 138);
+    height: 5vh;
+}
+
+.linkFooter {
+    margin: auto;
+}
+
+.lFooter {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playball', cursive, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 
@@ -184,24 +222,7 @@
     font-weight: bold;
     text-align: center;
     position: relative;
-    top: 8vh;
     font-family: 'Fredericka the Great', cursive, sans-serif;
-}
-
-@media screen and (max-width: 640px) {
-    h1 {
-        top: 18vh;
-    }
-}
-
-.timeline {
-    top: 5vh;
-}
-
-@media screen and (max-width: 640px) {
-    .timeline {
-        top: 15vh;
-    }
 }
 
 .badge {
@@ -239,9 +260,16 @@ img:hover {
 
 .bodyContact {
     display: flex;
-    height: 92vh;
+    height: 90vh;
 }
 
 .contact {
     margin: auto;
+}
+
+
+/* Not Found */
+
+.nF {
+    text-align: center;
 }

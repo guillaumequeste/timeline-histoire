@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Header'
+import Footer from './Footer'
 
 class Normal extends Component {
   
@@ -7,6 +8,7 @@ class Normal extends Component {
         return (
             <div>
                 <Header />
+                <Footer />
                 <br></br>
                 <br></br>
                 <br></br>
@@ -16,7 +18,7 @@ class Normal extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
-                <h2>Il n'y a rien ici</h2>
+                <h2 className="nF">Il n'y a rien ici</h2>
             </div>
         )
     }

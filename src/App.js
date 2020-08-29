@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Helmet from './components/Helmet'
 import 'react-vertical-timeline-component/style.min.css'
 import { Link } from "react-router-dom"
@@ -8,10 +9,12 @@ import { Link } from "react-router-dom"
 const App = () => (
   <>
     <Header />
+    <Footer />
     <div className="accueil">
       <Helmet title={"Frise Histoire deFrance"}
               link={"http://histoire.guillaumequeste.fr"} />
       <div className="liens">
+        <h1 className="titre">France</h1>
         <div className="part un">
           <Link to="/partie_un" className="linkHome">1830 - Aujourd'hui</Link>
         </div>
